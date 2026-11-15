@@ -1,0 +1,40 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "funseco/donate-plugin",
+    "description": "Funseco donation plugin — copper transfer ManiaLink panel and thank-you messages",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "funseco/core": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Funseco\\Donate\\": "src/"
+        }
+    },
+    "require-dev": {
+        "funseco/chat-plugin": "@dev",
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^11.5.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Funseco\\Donate\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "funseco": {
+            "id": "donate",
+            "name": "Donate",
+            "description": "donation plugin — copper transfer ManiaLink panel and thank-you messages",
+            "provider": "Funseco\\Donate\\DonateServiceProvider"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
