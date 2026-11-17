@@ -20,8 +20,8 @@ return [
         // {1} minimum
         'minimum' => '{#server}> {#error}Minimum donation is {#highlite}$i {1}{#error} coppers!',
         // {1} server name, {2} coppers, {3} donor nickname
-        'thanks_all' => '{#server}> {#highlite}{3}$z$s{#donate} donated {#highlite}{2}{#donate} coppers to {#highlite}{1}{#donate}. Thank you!',
+        'thanks_all' => '{#server}> {#highlite}{3}$z$s{#pink_dark} donated {#highlite}{2}{#pink_dark} coppers to {#highlite}{1}{#pink_dark}. Thank you!',
         // {1} coppers
-        'thanks_you' => '{#server}> {#donate}Thanks for your {#highlite}{1}{#donate} coppers donation!',
+        'thanks_you' => '{#server}> {#pink_dark}Thanks for your {#highlite}{1}{#pink_dark} coppers donation!',
     ],
 ];
